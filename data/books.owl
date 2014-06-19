@@ -1,0 +1,63 @@
+<rdf:RDF
+    xmlns:j.0="http://com/fatty/books.owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" > 
+  <rdf:Description rdf:about="http://com/fatty/books.owl#程序设计">
+    <j.0:directSuperClassOf rdf:resource="http://com/fatty/books.owl#web开发"/>
+    <j.0:directSuperClassOf rdf:resource="http://com/fatty/books.owl#android开发"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com/fatty/books.owl#写代码">
+    <j.0:synonymousOf rdf:resource="http://com/fatty/books.owl#写程序"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com/fatty/books.owl#programming">
+    <j.0:synonymousOf rdf:resource="http://com/fatty/books.owl#program"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com/fatty/books.owl#写程序">
+    <j.0:synonymousOf rdf:resource="http://com/fatty/books.owl#编程"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com/fatty/books.owl#电脑">
+    <j.0:synonymousOf rdf:resource="http://com/fatty/books.owl#计算机"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com/fatty/books.owl#罪恶">
+    <j.0:antisenseOf rdf:resource="http://com/fatty/books.owl#罪恶"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com/fatty/books.owl#计算机">
+    <j.0:directSuperClassOf rdf:resource="http://com/fatty/books.owl#程序设计"/>
+    <j.0:directSuperClassOf rdf:resource="http://com/fatty/books.owl#电脑维修"/>
+    <j.0:directSuperClassOf rdf:resource="http://com/fatty/books.owl#机器学习"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com/fatty/books.owl#战争">
+    <j.0:antisenseOf rdf:resource="http://com/fatty/books.owl#战争"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com/fatty/books.owl#纯洁">
+    <j.0:antisenseOf rdf:resource="http://com/fatty/books.owl#罪恶"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com/fatty/books.owl#root_category">
+    <j.0:directSuperClassOf rdf:resource="http://com/fatty/books.owl#计算机"/>
+    <j.0:directSuperClassOf rdf:resource="http://com/fatty/books.owl#心理学"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com/fatty/books.owl#手段">
+    <j.0:synonymousOf rdf:resource="http://com/fatty/books.owl#技术"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com/fatty/books.owl#代码">
+    <j.0:synonymousOf rdf:resource="http://com/fatty/books.owl#程序"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com/fatty/books.owl#便携式电脑">
+    <j.0:synonymousOf rdf:resource="http://com/fatty/books.owl#笔记本电脑"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com/fatty/books.owl#人工智能">
+    <j.0:synonymousOf rdf:resource="http://com/fatty/books.owl#ai"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com/fatty/books.owl#手提电脑">
+    <j.0:synonymousOf rdf:resource="http://com/fatty/books.owl#便携式电脑"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com/fatty/books.owl#和平">
+    <j.0:antisenseOf rdf:resource="http://com/fatty/books.owl#战争"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com/fatty/books.owl#编程">
+    <j.0:synonymousOf rdf:resource="http://com/fatty/books.owl#programming"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com/fatty/books.owl#机器学习">
+    <j.0:directSuperClassOf rdf:resource="http://com/fatty/books.owl#数据挖掘"/>
+    <j.0:directSuperClassOf rdf:resource="http://com/fatty/books.owl#人工智能"/>
+  </rdf:Description>
+</rdf:RDF>

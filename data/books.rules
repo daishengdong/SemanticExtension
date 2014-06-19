@@ -1,0 +1,19 @@
+
+@prefix BOOKS: <http://com/fatty/books.owl#>.
+@include <RDFS>.
+@include <OWL>.
+
+[rule0: (?a BOOKS:superClassOf ?b)->(?b BOOKS:subClassOf ?a)]
+[rule1: (?a BOOKS:subClassOf ?b)->(?b BOOKS:superClassOf ?a)]
+[rule2: (?a BOOKS:directSuperClassOf ?b)->(?a BOOKS:superClassOf ?b)]
+[rule3: (?a BOOKS:directSuperClassOf ?b)->(?b BOOKS:directSubClassOf ?a)]
+[rule4: (?a BOOKS:superClassOf ?b)(?b BOOKS:superClassOf ?c)->(?a BOOKS:superClassOf ?c)]
+[rule5: (?a BOOKS:directSubClassOf ?b)->(?a BOOKS:subClassOf ?b)]
+[rule6: (?a BOOKS:directSubClassOf ?b)->(?b BOOKS:directSuperClassOf ?a)]
+[rule7: (?a BOOKS:subClassOf ?b)(?b BOOKS:subClassOf ?c)->(?a BOOKS:subClassOf ?c)]
+[rule8: (?a BOOKS:synonymousOf ?b)->(?b BOOKS:synonymousOf ?a)]
+[rule9: (?a BOOKS:antisenseOf ?b)->(?b BOOKS:antisenseOf ?a)]
+[rule10: (?a BOOKS:synonymousOf ?b)(?b BOOKS:synonymousOf ?c) notEqual(?a, ?c)->(?a BOOKS:synonymousOf ?c)]
+[rule11: (?a BOOKS:synonymousOf ?b)(?b BOOKS:antisenseOf ?c)->(?a BOOKS:antisenseOf ?c)]
+[rule12: (?a BOOKS:antisenseOf ?b)(?b BOOKS:synonymousOf ?c)->(?a BOOKS:antisenseOf ?c)]
+[rule13: (?a BOOKS:antisenseOf ?b)(?b BOOKS:antisenseOf ?c) notEqual(?a, ?c)->(?a BOOKS:synonymousOf ?c)]

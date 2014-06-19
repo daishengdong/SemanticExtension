@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/jena/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/jena/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/jena/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/jena/jcl-over-slf4j-1.6.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/jena/jena-arq-2.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/jena/jena-core-2.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/jena/jena-iri-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/jena/jena-sdb-1.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/jena/jena-tdb-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/jena/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/jena/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/jena/slf4j-log4j12-1.6.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/jena/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/jena/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/lucene/IKAnalyzer3.2.5Stable.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/lucene/lucene-core-3.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/lucene/lucene-highlighter-3.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sky/workspace/SemanticExtension/lib/lucene/lucene-memory-3.6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
